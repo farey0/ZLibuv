@@ -17,6 +17,7 @@ pub fn MyCallback(timer: *L.Timer) void {
 pub fn main() !void {
     var loop: L.Loop = .{};
     var timer: L.Timer = .{};
+
     var count: u64 = 0;
 
     try loop.Init();

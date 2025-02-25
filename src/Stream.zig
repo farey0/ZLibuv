@@ -10,6 +10,8 @@ const Request = @import("Request.zig");
 
 const Self = @This();
 
+pub const MaxBacklog = c.MaxBacklog;
+
 pub const Error = @import("Error.zig").BaseError;
 const HandleError = @import("Error.zig").HandleBaseErr;
 

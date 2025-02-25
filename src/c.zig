@@ -318,6 +318,8 @@ pub const Kill = c.uv_kill;
 
 //                ----------------   Stream - https://docs.libuv.org/en/v1.x/stream.html   ----------------
 
+pub const MaxBacklog = c.SOMAXCONN;
+
 pub const Stream = c.uv_stream_t;
 pub const ConnectT = c.uv_connect_t;
 pub const ShutdownT = c.uv_shutdown_t;
